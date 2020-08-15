@@ -91,7 +91,6 @@ SSH into the control node and follow the steps below:
 - Update the playbook file to include necessary authorized connections.
 - Run the playbook, and navigate to 13.66.36.60:5601/app/kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - filebeat-config.yml must be moved to the /files
 - You must update the playbook to make Ansible run the playbook on a specific machine. 
 - Specify which machine to install the ELK server on versus which to install Filebeat on by specifying the address of the machine
